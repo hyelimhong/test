@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+li {
+	margin-left: 5px;
+}
+a:link { color: black; text-decoration: none;} 
+a:visited { color: black; text-decoration: none;}
+#lir{
+	margin-right: 70px;
+}
+.nav{
+	font-size: 25px; 
+	font-family:  'Jua', sans-serif;
+	margin-right: 30px;
+}
+.himg{
+	width: 220px;
+	height: 100px;
+	margin-left: 70px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.intro{
+	background-color:#215BA3;
+	color: white;
+	padding-top:150px;
+	padding-bottom: 100px;
+	font-family: 'GmarketSansMedium';
+}
+.admin{
+	float: left;
+	background-color: #a9a9a9;
+	background-position: bottom;
+}
+#bottom{
+	text-align: bottom;
+	width: 100vw;
+	height: 35vh;
+	background: linear-gradient(#D3D3D3 68%, #A9A9A9 32%);
+	clear: both;
+	padding-top: 70px;
+	padding-bottom: 0px;
+}
+
+
+/* local 메인 페이지 한정 css */
+.side-menu{
+	width: 300px; 
+	float:left; 
+	margin-right:100px; 
+	margin-left:300px; 
+	margin-top:150px; 
+	margin-bottom: 100px; 
+	padding-left:50px; 
+	padding-right:50px; 
+	padding-top:50px; 
+	border:1px solid black; 
+	border-radius: 50px;
+}
+
+#local-li{
+font-size: 22px;
+}
+
+
+.local-btn-group{
+	float:left; 
+	margin-top: 150px;
+}
+
+.local-object{
+	float: left; 
+	height: 400px; 
+	width: 400px; 
+	margin-top: 200px; 
+}
+
+.local-row{
+
+margin-top: 2.5rem !important; 
+height: auto; 
+padding-bottom: 30px; 
+min-height: 100%; 
+float:left;  
+flex: 0 0 auto;
+width: 41.66666667%; 
+margin-left: 650px; 
+margin-right: 180px; 
+position: center;
+
+
+}
+
+
+#local-back-button{
+margin-left: 1000px;
+}
+
+
+.local-content{
+margin-bottom: 20px; 
+weight: 100px;
+}
+
+#local-table-title{
+font-weight: 700; 
+font-size: 24px; 
+
+}
+
+#local-table-content{
+font-weight: 300; 
+font-size: 24px; 
+
+}
+
+/* -- 생성한 class 및 id -- */
+/*타이틀class*/
+.title{
+	font-weight: bold;
+	/*임의*/
+	font-family: Georgia, "맑은 고딕", serif; 
+}
+/*텍스트class*/
+.text{
+	text-align: left;
+	font-family: ;
+}
+/*이미지class*/
+.img{
+	width: 1150px;
+	height: 500px
+}
+/*카카오맵class*/
+#map{
+	width: 1000px;
+	height: 500px;	
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.multi.www.local.Local_touristdestinationVO" alias="local_touristdestinationVO"/>
+		<typeAlias type="com.multi.www.local.Local_restaurantVO" alias="local_restaurantVO"/>
+		<typeAlias type="com.multi.www.local.Local_accommodationVO" alias="local_accommodationVO"/>
+		<typeAlias type="com.multi.www.local.PageVO" alias="pageVO"></typeAlias>
+	</typeAliases>
+	<mappers>
+		<mapper resource="mapper/localMapper.xml"/>
+		
+	</mappers>
+</configuration>
